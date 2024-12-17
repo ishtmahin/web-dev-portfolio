@@ -7,6 +7,9 @@
 }
 
 /* Shared Styles */
+.secondary-bg {
+    background: rgb(255, 248, 243);
+}
 
 .primary-color {
     color: rgb(253, 110, 10);
@@ -26,14 +29,28 @@
     border: none;
 }
 
+.section-title {
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
 /*Header Related Styles */
 
-.header{
+.header {
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
     background-color: rgb(255, 248, 243);
 }
+
 nav {
     display: flex;
     align-items: center;
@@ -63,23 +80,58 @@ nav ul li a {
 }
 
 /*Banner Related Styles*/
-.banner{
+.banner {
     display: flex;
     margin: 0px 200px;
 }
 
-.banner-greetings{
+.banner-greetings {
     font-size: 45px;
     font-weight: 600;
 }
 
-.banner-title{
+.banner-title {
     font-size: 85px;
     font-weight: 700;
-    color: rgb(24, 24,24);
+    color: rgb(24, 24, 24);
 }
 
-.banner-profile-pic{
+.banner-profile-pic {
     width: 584px;
     height: 676px;
+}
+
+/* Main related styles */
+
+main {
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+
+/* About Related Styles */
+
+.about {
+    padding: 130px 150px;
+    margin-top: 130px;
+    text-align: center;
+}
+
+.items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-title {
+    Font-weight: 400;
+    Font-size: 20px;
+    color: rgb(117, 117, 117);
+    text-align: center;
+}
+
+.item-description {
+    Font-weight: 800;
+    Font-size: 20px;
+    color: rgb(71, 71, 71);
+    text-align: center;
 }
